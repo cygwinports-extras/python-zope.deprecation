@@ -1,0 +1,4 @@
+category: Python
+requires: cygwin python
+sdesc: "Zope modular symbol deprecation library"
+ldesc: "Zope modular symbol deprecation library"
