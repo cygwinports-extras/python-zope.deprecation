@@ -1,16 +1,16 @@
-python-zope-deprecation
+python-zope.deprecation
 ------------------------------------------
 Zope modular symbol deprecation library
 
 Runtime requirements:
-  python-2.5.1-3
-  python-zope-testing-3.5.1-1  (recommended)
+  python-2.5.4-1
+  python-setuptools-0.6c9-1
+  python-zope.testing-3.5.1-1  (recommended)
 
 Build requirements:
-  cygwin-1.5.24-2
-  cygport-0.3.5-1
-  python-2.5.1-3
-  python-setuptools-0.6c6-1
+  cygport-0.4.3-1
+  python-2.5.4-1
+  python-setuptools-0.6c9-1
 
 Canonical website:
   http://cheeseshop.python.org/pypi/zope.interface
@@ -21,15 +21,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-zope-deprecation-3.4.0-X-src.tar.bz2
+  unpack python-zope.deprecation-3.4.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-zope-deprecation-3.4.0-X.cygport all
+  cygport ./python-zope.deprecation-3.4.0-X.cygport all
 
 This will create:
-  /usr/src/python-zope-deprecation-3.4.0-X-src.tar.bz2
-  /usr/src/python-zope-deprecation-3.4.0-X.tar.bz2
+  /usr/src/python-zope.deprecation-3.4.0-X-src.tar.bz2
+  /usr/src/python-zope.deprecation-3.4.0-X.tar.bz2
 
 -------------------------------------------
 
@@ -53,14 +53,17 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/zope/deprecation/tests.py
   /usr/lib/python2.5/site-packages/zope/deprecation/tests.pyc
   /usr/lib/python2.5/site-packages/zope/deprecation/tests.pyo
-  /usr/share/doc/Cygwin/python-zope-deprecation-3.4.0.README
-  /usr/share/doc/python-zope-deprecation-3.4.0/Changes.txt
-  /usr/share/doc/python-zope-deprecation-3.4.0/INSTALL.txt
-  /usr/share/doc/python-zope-deprecation-3.4.0/README.txt
+  /usr/share/doc/Cygwin/python-zope.deprecation-3.4.0.README
+  /usr/share/doc/python-zope.deprecation-3.4.0/Changes.txt
+  /usr/share/doc/python-zope.deprecation-3.4.0/INSTALL.txt
+  /usr/share/doc/python-zope.deprecation-3.4.0/README.txt
 
 ------------------
 
 Port Notes:
+
+----- version 3.4.0-2 -----
+Rebuilt.
 
 ----- version 3.4.0-1 -----
 Version bump.
