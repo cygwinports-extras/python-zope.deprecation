@@ -3,14 +3,14 @@ python-zope.deprecation
 Zope modular symbol deprecation library
 
 Runtime requirements:
-  python-2.5.4-1
-  python-setuptools-0.6c9-1
-  python-zope.testing-3.5.1-1  (recommended)
+  python-2.5.4-10
+  python-setuptools-0.6c9-10
+  python-zope.testing-3.7.3-1  (recommended)
 
 Build requirements:
-  cygport-0.4.3-1
-  python-2.5.4-1
-  python-setuptools-0.6c9-1
+  cygport-0.9.6-1
+  python-2.5.4-10
+  python-setuptools-0.6c9-10
 
 Canonical website:
   http://cheeseshop.python.org/pypi/zope.interface
@@ -54,25 +54,16 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/zope/deprecation/tests.pyc
   /usr/lib/python2.5/site-packages/zope/deprecation/tests.pyo
   /usr/share/doc/Cygwin/python-zope.deprecation-3.4.0.README
-  /usr/share/doc/python-zope.deprecation-3.4.0/Changes.txt
-  /usr/share/doc/python-zope.deprecation-3.4.0/INSTALL.txt
-  /usr/share/doc/python-zope.deprecation-3.4.0/README.txt
+  /usr/share/doc/python-zope.deprecation/Changes.txt
+  /usr/share/doc/python-zope.deprecation/INSTALL.txt
+  /usr/share/doc/python-zope.deprecation/README.txt
 
 ------------------
 
 Port Notes:
 
------ version 3.4.0-2 -----
-Rebuilt.
-
------ version 3.4.0-1 -----
-Version bump.
-
------ version 3.3.0-1 -----
-Version bump for python-2.5.
-
------ version 3.2.0.2-1 -----
-Initial release for Cygwin.
+----- version 3.4.0-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
